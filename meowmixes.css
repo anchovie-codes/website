@@ -1,0 +1,33 @@
+.floatContainer {
+    width: 30em;
+    height: 5em;
+    margin: auto;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.floatLeft {
+    float: left;
+    width: auto;
+    height: 5em;
+    padding-right: 0.5em;
+}
+
+.floatLeft button {
+    margin: auto;
+    height: 80px;
+    width: 6em;
+}
+
+.floatRight {
+    float: right;
+    width: auto;
+    height: 5em;
+    padding-left: 0.5em;
+}
+
+.floatRight button {
+    margin: auto;
+    height: 80px;
+    width: 6em;
+}

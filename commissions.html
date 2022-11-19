@@ -8,82 +8,97 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
+        <script type="text/javascript" src="functions.js"></script>
         <title>commissions</title>
     </head>
-    <body style="background-image: none; background-color: rgb(67, 67, 74);">
+    <body style="background-image: url(images/icons/xtile.png); background-repeat: repeat; background-size: auto;">
         <div id="header">
             <h1>commissions</h1>
             <h2>so, you want to give me money...</h2>
-        <div id="spacer"></div>
         </div>
         <!--types of work-->
         <div class="responsiveContainer">
             <div id="glitchbg">
-                <h2 style="padding: 0.5em;">//types of work</h2>
+                <h2 style="padding: 0.5em;">//what can i make?</h2>
             </div>
             <div id="glitchbg">
                 <div style="padding: 0.5em; width: auto;">
-                    <p>below are some examples of my illustration work. i'll also happily do UI mockups, simple CAD models, writing, etc. if you have an idea and want to work together, don't be shy!</p>
+                    <p>i can't make everything, but i can make a lot! check out the categories below to see what i've done in the past. alternatively, if you're already working on an project and need help, i love to collab.</p>
                 </div>
             </div>
-            <div class="row" style="background-image: url(images/glitch_bg2.png); background-size: auto; background-clip: border-box;">
-                <div class="column">
-                    <p>
-                        <strong>//vector art</strong><br><br>great for 3d-printing, laser-etching, PCB-tracing, etc.<br><br>scalable for any application!<br><br>
-                        <a class="noLine" target="_blank" href="images/sarel.png">
-                            <img class="blurry" src="images/comm_ex_03.png">
-                        </a>
-                    </p>
-                </div>
-                <div class="column"> 
-                    <p><strong>//illustration</strong><br><br>vector or raster, more technical drawings are my speciality!<br><br>of course, i draw furries as well.<br><br>
-                        <a class="noLine" target="_blank" href="images/shakotan.jpg">
-                            <img class="blurry" src="images/comm_ex_02.png">
-                        </a>
-                    </p>
-                </div>
-                <div class="column">
-                    <p><strong>//geometric</strong><br><br>intricate vector work inspired by circuitry and mechanical forms.<br><br>high-detail and time-intensive.<br><br>
-                        <a class="noLine" target="_blank" href="images/west.jpg">
-                            <img class="blurry" src="images/comm_ex_01.png">
-                        </a>
-                    </p>
+            <!--category 1-->
+            <button type="button" class="collapsible">//vector art</button>
+            <div class="content">
+                <div id="glitchbg">
+                    <img src="images/commissions/banner-01.png" style="width: 100%;">
+                    <p>great for 3d printing, laser engraving, PCB tracing, website assets, stickers, and so much more! vectors are infinitely scalable and easily converted into machine toolpaths. if you've ever wanted to slap your fursona's face on everything you own, this is a great start.</p>
                 </div>
             </div>
+            <!--category 2-->
+            <button type="button" class="collapsible">//illustration</button>
+            <div class="content">
+                <div id="glitchbg">
+                    <img src="images/commissions/banner-02.png" style="width: 100%;">
+                    <p>vector or raster, more technical art is my speciality. from geometric designs inspired by circuitry and mechanical forms to manga-style drift furries, i'll bring any idea to life.</p>
+                </div>
+            </div>
+            <!--category 3-->
+            <button type="button" class="collapsible">//design</button>
+            <div class="content">
+                <div id="glitchbg">
+                    <img src="images/commissions/banner-03.png" style="width: 100%;">
+                    <p>have a bigger project in mind? CAD modeling? large-format poster prints? i'll bring your design from napkin sketch to final form, or any stage along the way.</p>
+                </div>
+            </div>
+            <!--deliverables-->
             <div id="spacer"></div>
-            <!--contact-->
             <div id="glitchbg">
-                <h2 style="padding: 0.5em;">//contact me</h2>
+                <h2 style="padding: 0.5em;">//what do you get?</h2>
             </div>
             <div id="glitchbg">
                 <div style="padding: 0.5em; width: auto;">
-                    <p><strong>telegram:</strong> @anchovie</p>
+                    <p>when you commission me, you get everything: the final piece (in whatever formats needed) <strong>and all source files</strong>. i love seeing my work reused, repurposed, and modified. if you're a maker and want to alter or re-export a commission for future projects, i want to make that as easy as possible for you.</p>
                 </div>
             </div>
+            <!--contact info-->
             <div id="spacer"></div>
+            <div id="glitchbg">
+                <h2 style="padding: 0.5em;">//contact info</h2>
+            </div>
+            <div id="glitchbg">
+                <div style="padding: 0.5em; width: auto;">
+                    <p><strong>telegram:</strong> <a href="https://t.me/anchovie">@anchovie</a></p>
+                </div>
+            </div>
             <!--terms of service-->
+            <div id="spacer"></div>
             <div id="glitchbg">
                 <h2 style="padding: 0.5em;">//terms of service</h2>
             </div>
             <div id="glitchbg">
                 <div style="padding: 0.5em; width: auto;">
                     <p>rate: $30 USD per hour</p>
-                    <p>price estimates can be provided. two major revisions are included for free; the first upon receipt of an initial sketch, the second upon receipt of a finished sketch. after this, i will finish the piece. subsequent revisions will incur additional charges equivalent to the hours needed to complete them. a watermarked low-res preview will be provided for final approval. payment is due upon approval in exchange for the final full-resolution piece. i accept paypal or venmo.</p>
+                    <p>price estimates can be provided.</p>
+                    <p>for illustration, two revision cycles are included for free; the first upon receipt of an initial sketch, the second upon receipt of a finished sketch. after the sketch is approved, i will finish the piece. for other types of work, we can scope it out together and decide what's needed. communication is key. typically, subsequent revisions will incur additional charges equivalent to the hours needed to complete them.</p>
+                    <p>a watermarked lo-fi preview will be provided for final approval. payment is due upon approval in exchange for the final piece and all source files. i only accept paypal.</p>
                     <p>if you want to individualize your commission as a unique, special piece that is yours alone while being visually-identical to clones i post online, i can encrypt a copy of your commission using <a href="https://github.com/anchovie-codes/not-NFT">not-NFT</a>, an eco-friendly and ultra-lightweight steganography tool (seriously, you can run it yourself, it's like 50 lines of code). this service is free of charge!</p>
-                    <p>work is done on a first come, first serve basis. i have a queue on <a target="_blank" href="https://trello.com/b/3es4UREm/anchovies-commission-queue" style="color: aqua;">trello</a>.
-                    <p>art is my hobby. i work a full-time job during the week. completion times are dependent on my schedule.</p>
-                    <div id="spacer"></div>
-                    <div id="footer">
-                        <p>
-                            my work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" style="color: aqua;">Creative Commons Attribution-ShareAlike 4.0 International License</a>. you can create derivative work and sell it, but you must attribute me as the source creator and publish your work under a similar license.<strong> you may NOT mint NFTs of my work, as it is non-derivative and cannot be published under a similar CC license. if you do this, i will sue the shit out of you.</strong>
-                        </p>
-                        <a target="_blank" href="http://www.mabsland.com/Adoption.html"><img src="images/Censor_14c.gif"></a>
-                        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-                        <img src="images/signature.png">
-                    </div>
-                    <div id="footer">
-                        <img src="images/no_hentai.jpg">
-                    </div>
+                    <p>work is done on a first come, first serve basis. i have a queue on <a target="_blank" href="https://trello.com/b/3es4UREm/anchovies-commission-queue">trello</a>.
+                    <p>art is my hobby. i work a full-time job during the week. completion times are dependent on my schedule. i don't accept rush jobs - zero exceptions.</p>
+                </div>
+            </div>
+            <!--licensing-->
+            <div id="spacer"></div>
+            <div id="glitchbg">
+                <div id="footer">
+                    <p>
+                        my work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. you can create derivative work and sell it, but you must attribute me as the source creator and publish your work under a similar license.<strong> you may NOT mint NFTs of my work, as it is non-derivative and cannot be published under a similar CC license. if you do this, i will sue the shit out of you.</strong>
+                    </p>
+                    <a target="_blank" href="http://www.mabsland.com/Adoption.html"><img src="images/Censor_14c.gif"></a>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+                    <img src="images/signature.png">
+                </div>
+                <div id="footer">
+                    <img src="images/no_hentai.jpg">
                 </div>
             </div>
         </div>
