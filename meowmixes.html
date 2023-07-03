@@ -2,258 +2,269 @@
 <html>
     <head lang="en">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="meowmixes.css">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
         <script type="text/javascript" src="functions.js"></script>
-        <title>//meowmixes</title>
+        <title>meowmixes</title>
     </head>
-    <body style="background-image: url(images/tapetile.png); background-repeat: repeat; background-size: auto;">
-        <div id="welcome">
+    <body style="background-image: url(images/icons/tapetile_drk.png); background-repeat: repeat; background-size: auto;">
+        <div class="nav">
+            <ul class="breadcrumb">
+                <li><a class="noLine" href="index.html">home</a></li>
+                <li>/</li>
+                <li><a class="noLine" href="projects.html">projects</a></li>
+                <li>/</li>
+                <li>meowmixes</li>
+            </ul>
+        </div>
+        <div id="header">
             <h1>meowmixes</h1>
             <h2>mixtapes between friends!</h2>
         </div>
         <div id="spacer"></div>
-        <!--here's the float navbar-->
+        <!--tape selector-->
         <div class="floatContainer">
             <div class="floatLeft">
-                <img src="images/anchovie_headshot.png" style="height: 80px; border-radius: 6px;">
+                <img src="images/anchovie_headshot.png" style="height: 4em; border-radius: 6px;">
             </div>
             <div class="floatLeft">
-                <button class="hvr-sweep-to-right" onclick="hideRight()" style="width: 6em;">A SIDES</button>
+                <button class="hvr-sweep-to-right" onclick="hideRight()">A</button>
             </div>
             <div class="floatRight">
-                <img src="images/jacquelyn_headshot.png" style="height: 80px; border-radius: 6px;">
+                <img src="images/jacquelyn_headshot.png" style="height: 4em; border-radius: 6px;">
             </div>
             <div class="floatRight">
-                <button class="hvr-sweep-to-right" onclick="hideLeft()">B SIDES</button>
+                <button class="hvr-sweep-to-right" onclick="hideLeft()">B</button>
             </div>
         </div>
         <div id="spacer"></div>
         <div id="spacer"></div>
-        <!--anchovie's table of mixtapes-->
-        <div id="toggle_left">
-            <table>
-                <tr>
-                    <th id="titlebar" colspan="2">//anchovie's tapes</th>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/KHJfWi67cfDKkFY">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";><strong>00 Jackmetal:</strong> some favorite powermetal, post-hardcore, and xyz-metal songs, prior to the project's official start.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/7yrir3JRGK4jXfe">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";><strong>01 Hip-Hop Chronology:</strong> the best of hip-hop from my collection, spanning 1998-2020. captures the genre's evolutions over time.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/YjJKaWiDaxZQetF">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";><strong>02 For Melancholy Days:</strong> songs that accompany me through tough times.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/CmYfdN3X4pGjyXm">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";><strong>03 Macau Nights:</strong> easy listening vibes for cruising the strip at midnight.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/cXEFX2DSLrMZnQy">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";><strong>04 [untitled mixtape]:</strong> a transition story set to a soundtrack.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/rd6zE3EMN58yLmq">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";><strong>05 god i wish that were me:</strong> vocalists i admire.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/tT2MgDCJ7aexcgx">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";><strong>06 sardine's selections:</strong> a special curation by my friend Sardine.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/FejfWaA3r6Q3Y8k">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";><strong>07 Are Ya Winning, Son?:</strong> some of my favorite videogame tunes.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/RA23WP8gSKqzbdi">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";><strong>08 The Dusty Corner Bin Of Your Local Record Store:</strong> songs i found by digging around, or by happenstance.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/J6niWCPPf3NNEeR">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";><strong>09 Soundcloud Cuts:</strong> undiscovered gems from the algorithm.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/5yZX5XsEG4Ppkqs">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";><strong>10 Why Is There Fur In My Mixtape:</strong> songs from the fandom.</p></td>
-                </tr>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/Fjqk8kpgWDnCNqH">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";><strong>11 I Was A Rebellious Loser In Highschool And Now I'm Resigned To Working For The Man:</strong> an anti-war story told (mostly) through punk rock</p></td>
-                </tr>
-            </table>
-        </div>
-        <!--jacquelyn's table of mixtapes-->
-        <div id="toggle_right" class="hidden">
-            <table>
-                <tr>
-                    <th id="titlebar" colspan="2">//jacquelyn's tapes</th>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/PgPdk3YCsdc6ixr">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";>
-                    <strong>00 Metal4Cats:</strong> Selection of metal from before the project started, the only mix with no <i>notes.txt</i> or listening order.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/LzYFT83n8FfggPZ">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";>
-                    <strong>01 Chicken Tenders for the Transjackal Soul:</strong> Songs related to my transgender experience and furry identity crisis, more details in <i>notes.txt</i></p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/SX2ay3QbC5YqJHQ">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";>
-                    <strong>02 High Seas and Adventure:</strong> Nautical-themed for the first half, followed by a broader adventure narrative.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/nrRrgq9CdrqaSKr">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";>
-                    <strong>03 I Wanna 3 With U:</strong> Songs about love. In the good way, no breakups etc.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/Q8ojWYWsN626owT">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";>
-                    <strong>04 4reign Affairs:</strong> Non-U.S.A artists / songs with non-English lyrics</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/QgoTYnFE3ymPX96">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";>
-                    <strong>05 (Break-) Ups and Downs:</strong> Counterpart to B-side Mix 3, this one's about unhealthy relationships and breakups.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/rQ2a8zC6NNRmX85">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";>
-                    <strong>06 punk in cubLic:</strong> Various flavors of punk/punk-adjacent music.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/5srNP4zGnYoBQoY">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";>
-                    <strong>07 A Hip, Hop, and a Wrap:</strong> Hip hop, rap, and related music with a dash of off-topic filler.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/bbyCAw3gij5naL6">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";>
-                    <strong>08 Rock n' Roll Lifecycle:</strong> Loose concept mix featuring songs about rock culture.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/YtnGLp9iz8JWxB8">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";>
-                    <strong>09 Go Tell It On The Mixtape:</strong> Storytelling where it feels like the vocalist is narrating to you.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/RWkRTpdiKyGNjHb">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";>
-                    <strong>10 Madness:</strong> Unmitigated anger. A lot of metal in this one.</p></td>
-                </tr>
-                <tr>
-                    <td style="text-align: center; width: 10em;">
-                        <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/jCWRyQnwosb782P">
-                            <button class="hvr-sweep-to-right">download</button>
-                        </a>
-                    </td>
-                    <td><p style="color: #FFFFFF";>
-                    <strong>11 The Sound Of:</strong> Selections from movie and videogame soundtracks.</p></td>
-                </tr>
-            </table>
+        <div class="responsiveContainer">
+            <!--anchovie's table of mixtapes-->
+            <div id="toggle_left">
+                <table>
+                    <tr>
+                        <th id="titlebar" colspan="2">//anchovie's tapes</th>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/KHJfWi67cfDKkFY">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p><strong>00 Jackmetal:</strong> some favorite powermetal, post-hardcore, and xyz-metal songs, prior to the project's official start.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/7yrir3JRGK4jXfe">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p><strong>01 Hip-Hop Chronology:</strong> the best of hip-hop from my collection, spanning 1998-2020. captures the genre's evolutions over time.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/YjJKaWiDaxZQetF">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p><strong>02 For Melancholy Days:</strong> songs that accompany me through tough times.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/CmYfdN3X4pGjyXm">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p><strong>03 Macau Nights:</strong> easy listening vibes for cruising the strip at midnight.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/cXEFX2DSLrMZnQy">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p><strong>04 [untitled mixtape]:</strong> a transition story set to a soundtrack.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/rd6zE3EMN58yLmq">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p><strong>05 god i wish that were me:</strong> vocalists i admire.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/tT2MgDCJ7aexcgx">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p><strong>06 sardine's selections:</strong> a special curation by my friend Sardine.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/FejfWaA3r6Q3Y8k">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p><strong>07 Are Ya Winning, Son?:</strong> some of my favorite videogame tunes.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/RA23WP8gSKqzbdi">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p><strong>08 The Dusty Corner Bin Of Your Local Record Store:</strong> songs i found by digging around, or by happenstance.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/J6niWCPPf3NNEeR">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p><strong>09 Soundcloud Cuts:</strong> undiscovered gems from the algorithm.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/5yZX5XsEG4Ppkqs">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p><strong>10 Why Is There Fur In My Mixtape:</strong> songs from the fandom.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/Fjqk8kpgWDnCNqH">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p><strong>11 I Was A Rebellious Loser In Highschool And Now I'm Resigned To Working For The Man:</strong> an anti-war story told (mostly) through punk rock.</p></td>
+                    </tr>
+                </table>
+            </div>
+            <!--jacquelyn's table of mixtapes-->
+            <div id="toggle_right" class="hidden">
+                <table>
+                    <tr>
+                        <th id="titlebar" colspan="2">//jacquelyn's tapes</th>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/PgPdk3YCsdc6ixr">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p>
+                        <strong>00 Metal4Cats:</strong> Selection of metal from before the project started, the only mix with no <i>notes.txt</i> or listening order.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/LzYFT83n8FfggPZ">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p>
+                        <strong>01 Chicken Tenders for the Transjackal Soul:</strong> Songs related to my transgender experience and furry identity crisis, more details in <i>notes.txt</i></p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/SX2ay3QbC5YqJHQ">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p>
+                        <strong>02 High Seas and Adventure:</strong> Nautical-themed for the first half, followed by a broader adventure narrative.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/nrRrgq9CdrqaSKr">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p>
+                        <strong>03 I Wanna 3 With U:</strong> Songs about love. In the good way, no breakups etc.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/Q8ojWYWsN626owT">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p>
+                        <strong>04 4reign Affairs:</strong> Non-U.S.A artists / songs with non-English lyrics</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/QgoTYnFE3ymPX96">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p>
+                        <strong>05 (Break-) Ups and Downs:</strong> Counterpart to B-side Mix 3, this one's about unhealthy relationships and breakups.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/rQ2a8zC6NNRmX85">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p>
+                        <strong>06 punk in cubLic:</strong> Various flavors of punk/punk-adjacent music.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/5srNP4zGnYoBQoY">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p>
+                        <strong>07 A Hip, Hop, and a Wrap:</strong> Hip hop, rap, and related music with a dash of off-topic filler.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/bbyCAw3gij5naL6">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p>
+                        <strong>08 Rock n' Roll Lifecycle:</strong> Loose concept mix featuring songs about rock culture.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/YtnGLp9iz8JWxB8">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p>
+                        <strong>09 Go Tell It On The Mixtape:</strong> Storytelling where it feels like the vocalist is narrating to you.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/RWkRTpdiKyGNjHb">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p>
+                        <strong>10 Madness:</strong> Unmitigated anger. A lot of metal in this one.</p></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; width: 10em;">
+                            <a class="noLine" target="_blank" href="https://cloud.lexieloo.com/s/jCWRyQnwosb782P">
+                                <button class="hvr-sweep-to-right">download</button>
+                            </a>
+                        </td>
+                        <td><p>
+                        <strong>11 The Sound Of:</strong> Selections from movie and videogame soundtracks.</p></td>
+                    </tr>
+                </table>
+            </div>
         </div>
         <div id="spacer"></div>
         <div id="spacer"></div>

@@ -2,7 +2,7 @@
 <html>
     <head lang="en">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main.css">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -10,61 +10,95 @@
         <link rel="manifest" href="/site.webmanifest">
         <title>projects</title>
     </head>
-    <body style="background-image: url(images/xtile.png); background-repeat: repeat; background-size: auto;">
-        <div id="welcome">
+    <body style="background-image: url(images/icons/xtile.png); background-repeat: repeat; background-size: auto;">
+        <div class="nav">
+            <ul class="breadcrumb">
+                <li><a class="noLine" href="index.html">home</a></li>
+                <li>/</li>
+                <li>projects</li>
+            </ul>
+        </div>
+        <div id="header">
             <h1>projects</h1>
-            <h2>the things i do in my spare time that aren't illustration</h2>
+            <h2>where non-art activities live</h2>
         </div>
         <div id="spacer"></div>
-        <!--table of projects, copy <tr> to add a row-->
-        <table>
-            <tr>
-                <th id="titlebar" colspan="3">//projects</th>
-            </tr>
-            <tr>
-                <td style="text-align: center; width: 10em;">
-                    <a class="noLine" href="meowmixes.html">
-                        <button class="hvr-sweep-to-right">meowmixes</button>
-                    </a>
-                </td>
-                <td>
-                    <div class="img_container"><img src="images/tapetile.png" style="height: 80px; border-radius: 6px;"></div>
-                </td>
-                <td><p style="color: #FFFFFF";>a collection of mixtapes exchanged with my friend jacquelyn! each mix is 60-70min and has liner notes.</p></td>
-            </tr>
-            <tr>
-                <td style="text-align: center; width: 10em;">
-                    <a class="noLine" target="_blank" href="https://medium.com/@anchoviewrites/on-cyberpunk-2077-1e1354e48676">
-                        <button class="hvr-sweep-to-right">cp2077 bad?</button>
-                    </a>
-                </td>
-                <td>
-                    <div class="img_container"><img src="images/nodata.png" style="height: 80px; border-radius: 6px;"></div>
-                </td>
-                <td><p style="color: #FFFFFF";>a designer's perspective on cyberpunk 2077.</p></td>
-            </tr>
-            <tr>
-                <td style="text-align: center; width: 10em;">
-                    <a class="noLine" target="_blank" href="fh4guide.pdf">
-                        <button class="hvr-sweep-to-right">fh4 guide</button>
-                    </a>
-                </td>
-                <td>
-                    <div class="img_container"><img src="images/forza.png" style="height: 80px; border-radius: 6px;"></div>
-                </td>
-                <td><p style="color: #FFFFFF";><strong>the not particularly essential forza horizon 4 tuning guide!</strong> intended for novice tuners to learn the ropes and best practices.</p></td>
-            </tr>
-            <tr>
-                <td style="text-align: center; width: 10em;">
-                    <a class="noLine" target="_blank" href="https://github.com/anchovie-codes/not-NFT">
-                        <button class="hvr-sweep-to-right">not-nft</button>
-                    </a>
-                </td>
-                <td>
-                    <div class="img_container"><img src="images/notnft.png" style="height: 80px; border-radius: 6px;"></div>
-                </td>
-                <td><p style="color: #FFFFFF";>a small steganography project with my partner, Marzz. designed as a simple, eco-friendly alternative to NFTs.</p></td>
-            </tr>
-        </table>
+        <div class="responsiveContainer">
+            <!--table of projects, copy <tr> to add a row-->
+            <table>
+                <tr>
+                    <th id="titlebar" colspan="3">//go on, click one :3</th>
+                </tr>
+                <tr>
+                    <td style="text-align: center; width: 10em;">
+                        <a class="noLine" target="_blank" href="APSDT_2023.pdf">
+                            <button class="hvr-sweep-to-right">APSDT</button>
+                        </a>
+                    </td>
+                    <td>
+                        <div class="img_container"><img src="images/icons/target.png" style="height: 80px; border-radius: 6px;"></div>
+                    </td>
+                    <td><p>a printable paper target for all your shooting needs. revised 2023 edition!</p></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; width: 10em;">
+                        <a class="noLine" target="_blank" href="https://medium.com/@anchoviewrites/the-100-hour-bar-stool-ce8c0f858f24">
+                            <button class="hvr-sweep-to-right">100hr stool</button>
+                        </a>
+                    </td>
+                    <td>
+                        <div class="img_container"><img src="images/icons/barstool.png" style="height: 80px; border-radius: 6px;"></div>
+                    </td>
+                    <td><p>my first woodworking project, a CNC bar stool. instructions included!</p></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; width: 10em;">
+                        <a class="noLine" href="meowmixes.html">
+                            <button class="hvr-sweep-to-right">meowmixes</button>
+                        </a>
+                    </td>
+                    <td>
+                        <div class="img_container"><img src="images/icons/tapetile.png" style="height: 80px; border-radius: 6px;"></div>
+                    </td>
+                    <td><p>a collection of mixtapes exchanged with my friend jacquelyn! each mix is 60-70min and has liner notes.</p></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; width: 10em;">
+                        <a class="noLine" target="_blank" href="https://medium.com/@anchoviewrites/on-cyberpunk-2077-1e1354e48676">
+                            <button class="hvr-sweep-to-right">cp2077 bad?</button>
+                        </a>
+                    </td>
+                    <td>
+                        <div class="img_container"><img src="images/icons/cp2077.png" style="height: 80px; border-radius: 6px;"></div>
+                    </td>
+                    <td><p>a designer's perspective on cyberpunk 2077.</p></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; width: 10em;">
+                        <a class="noLine" target="_blank" href="fh4guide.pdf">
+                            <button class="hvr-sweep-to-right">fh4 guide</button>
+                        </a>
+                    </td>
+                    <td>
+                        <div class="img_container"><img src="images/icons/forza.png" style="height: 80px; border-radius: 6px;"></div>
+                    </td>
+                    <td><p><strong>the not particularly essential forza horizon 4 tuning guide!</strong> intended for novice tuners to learn the ropes and best practices.</p></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; width: 10em;">
+                        <a class="noLine" target="_blank" href="https://github.com/anchovie-codes/not-NFT">
+                            <button class="hvr-sweep-to-right">not-nft</button>
+                        </a>
+                    </td>
+                    <td>
+                        <div class="img_container"><img src="images/icons/notnft.png" style="height: 80px; border-radius: 6px;"></div>
+                    </td>
+                    <td><p>a small steganography project with my partner, Marzz. designed as a simple, eco-friendly alternative to NFTs.</p></td>
+                </tr>
+            </table>
+            <!--end table-->
+        </div>
+        <div id="spacer"></div>
+        <div id="spacer"></div>
     </body>
 </html>
