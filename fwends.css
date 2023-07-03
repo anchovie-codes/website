@@ -1,0 +1,109 @@
+.fGrid {
+    width: 100%;
+    max-width: 60em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 10em);
+    justify-content: center;
+    grid-gap: 2em;
+}
+
+.fwend {
+    height: 280px;
+    width: 200px;
+    padding: 0px;
+}
+
+.fwend:first-child {
+    pointer-events: none;
+}
+
+.cardArt {
+    pointer-events: auto;
+    max-width: 100%;
+    opacity: 0.4;
+}
+
+.cardArt:hover {
+    opacity: 1.0;
+}
+
+.cardTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.fwend a {
+    color: #FFFFFF;
+    text-shadow: 8px 8px 6px #000000;
+}
+
+/* arrow marker */
+#here {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#here img {
+    width: 80px;
+    filter: drop-shadow(0 0 6px #000000);
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+/* arrow_marker bounce effect (stolen) */
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 10px, 0);
+    }
+}
+
+/*trading cards (also stolen)*/
+.container {
+    height: 18.75em;
+    width: 37.5em;
+    top: 3.75em;
+    left: calc(50% - 18.75em);
+    display: flex;
+}
+
+.card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: #1E1E23;
+    border-radius: 10px;
+    box-shadow: -1em 0 2em #000000;
+    /*   margin-left: -50px; */
+    transition: 0.2s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    transition: 0.2s ease-out;
+}
+
+.card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.2s ease-out;
+}

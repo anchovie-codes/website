@@ -20,7 +20,7 @@ function hideLeft() {
 }
 
 window.onload = function(){
-    console.log("this function is running");
+    console.log("hello world");
     var coll = document.getElementsByClassName("collapsible");
     var i;
 
