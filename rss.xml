@@ -26,12 +26,6 @@
             <description>there's a new page on the website! it's a webring of sorts, so you can check out my pals (who are all super awesome :D). other updates include: added "new" icon for updates, added telegram channel to about page, added/removed some badges, minor grammatical fixes.</description>
         </item>
         <item>
-            <title>guestbook live!</title>
-            <pubDate>Tue, 03 Jan 2023 21:00:00</pubDate>
-            <link>http://users3.smartgb.com/g/g.php?a=s&i=g36-34199-d1</link>
-            <description>there's a guestbook now, accessible from the main site page! check it out if you'd like, maybe even leave a note that you stopped by :3. i also moved some small things around, tidied up the code base, and fixed a typo in the about page.</description>
-        </item>
-        <item>
             <title>telegram channel live!</title>
             <pubDate>Sun, 01 Jan 2023 23:00:00</pubDate>
             <link>https://t.me/anchoviedraws</link>
